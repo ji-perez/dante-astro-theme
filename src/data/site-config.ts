@@ -38,7 +38,7 @@ export type SiteConfig = {
 };
 
 const siteConfig: SiteConfig = {
-    title: 'Maria Camila Sanchez Cañon',
+    title: 'María Camila Sánchez Cañón',
     subtitle: 'Minimal Astro.js theme',
     description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
     image: {
@@ -51,7 +51,7 @@ const siteConfig: SiteConfig = {
             href: '/'
         },
         {
-            text: 'Projectos',
+            text: 'Proyectos',
             href: '/projects'
         },
         {
@@ -64,18 +64,18 @@ const siteConfig: SiteConfig = {
         }
     ],
     footerNavLinks: [
-        {
-            text: 'Acerca de',
-            href: '/about'
-        },
+        // {
+        //     text: 'Acerca de',
+        //     href: '/about'
+        // },
         {
             text: 'Contacto',
             href: '/contact'
         },
-        // {
-        //     text: 'Terms',
-        //     href: '/terms'
-        // },
+        {
+            text: 'Terminos',
+            href: '/terms'
+        },
         // {
         //     text: 'Download theme',
         //     href: 'https://github.com/JustGoodUI/dante-astro-theme'
@@ -86,34 +86,34 @@ const siteConfig: SiteConfig = {
         //     text: 'Dribbble',
         //     href: 'https://dribbble.com/'
         // },
-        {
-            text: 'Instagram',
-            href: 'https://instagram.com/'
-        },
+        // {
+        //     text: 'Instagram',
+        //     href: 'https://instagram.com/'
+        // },
         // {
         //     text: 'X/Twitter',
         //     href: 'https://twitter.com/'
         // }
     ],
     hero: {
-        title: 'Hi There & Welcome to My Corner of the Web!',
-        text: "I'm **Ethan Donovan**, a web developer at Amazing Studio, dedicated to the realms of collaboration and artificial intelligence. My approach involves embracing intuition, conducting just enough research, and leveraging aesthetics as a catalyst for exceptional products. I have a profound appreciation for top-notch software, visual design, and the principles of product-led growth. Feel free to explore some of my coding endeavors on <a href='https://github.com/JustGoodUI/dante-astro-theme'>GitHub</a> or follow me on <a href='https://twitter.com/justgoodui'>Twitter/X</a>.",
+        title: 'Hola, Bienvenidos a mi rincón en la Web!',
+        text: "Bienvenidos a mi espacio, donde comparto mi pasión y trabajo en el ámbito del activismo social, centrado en la migración, inclusión y el empoderamiento femenino. Soy **María Camila Sánchez Cañón**, y a través de mi trayectoria, he colaborado con comunidades migrantes y liderado iniciativas para promover sus derechos y su integración en la sociedad.<br><br>Es una ventana a las historias de resiliencia, cambio y esperanza que he encontrado en mi camino. Aquí, reflexionaré sobre las experiencias y lecciones aprendidas, ofreciendo una plataforma para dialogar sobre cómo podemos contribuir a un mundo más justo e inclusivo.",
         image: {
-            src: '/hero.jpeg',
-            alt: 'A person sitting at a desk in front of a computer'
+            src: '/maria-camila-black-white.jpg',
+            alt: 'A sitting person, reading while is traveling on a metrocable'
         },
         actions: [
             {
-                text: 'Contactame',
+                text: 'Contáctame',
                 href: '/contact'
             }
         ]
     },
-    subscribe: {
-        title: 'Subscribe to Dante Newsletter',
-        text: 'One update per week. All the latest posts directly in your inbox.',
-        formUrl: '#'
-    },
+    // subscribe: {
+    //     title: 'Suscríbete al blog de Maria Camila',
+    //     text: 'Cada nuevo post directamente a tu correo',
+    //     formUrl: '#'
+    // },
     postsPerPage: 8,
     projectsPerPage: 8
 };
